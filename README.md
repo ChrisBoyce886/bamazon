@@ -27,7 +27,8 @@ the application by pressing 'control C'
      
 ## Demonstration gif:
 
-* This gif demonstrates how to select a product, how to select the quanity of that product, and shows the purchase information and the updated product inventory from the database. This demonstration also shows what errors arise if a product ID is incorrectly selected or if quantity request is too high.  
+* This gif demonstrates how to select a product, how to select the quanity of that product, and shows the purchase information and the updated product inventory from the database. 
+* This demonstration also shows what errors arise if a product ID is incorrectly selected or if quantity request is too high.  
    
 ![BamazonGif](screenshot/bamazon.gif "bamazon.gif")
 
