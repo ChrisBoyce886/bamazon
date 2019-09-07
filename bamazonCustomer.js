@@ -130,5 +130,9 @@ function issuePrompts(response) {
         });
     };
 };
+    if(i = response.length && match==false){
+        console.log("Please check your selection and try again");
+        issuePrompts(response)
+    }
 });
 };
