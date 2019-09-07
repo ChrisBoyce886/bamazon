@@ -17,8 +17,8 @@ together with the `npm mysql` package.
 
 * The customer interface displays to the user the current inventory of store items: item IDs, the name of the product, the department in
 which the item is located, each invidiviual items price, and the quantity of that item remaining in stock. 
-* The user is be prompted to select a product based on that products unique ID number. 
-* Following the selection of the product, the user is asked for the quantity of that he/she would like to purchase. 
+* The user will be prompted to select a product based on that products unique ID number. 
+* Following the selection of the product, the user will be asked for the quantity of that item that he/she would like to purchase. 
   * If the selected quantity is currently in stock, the user's order is fulfilled, displaying the purchse information including 
     the total purchase price and updating the store.
    * If the ID number is not found or the quantity is too high the user will be given an alert as to the error and can try again.
