@@ -1,4 +1,4 @@
-# BAMZON
+# BAMAZON
 
 Bamazon is an "e-commerce" Node command line interface application that makes use of the `npm inquirer` package and a MySQL database 
 together with the `npm mysql` package. 
