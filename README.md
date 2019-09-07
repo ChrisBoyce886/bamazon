@@ -6,8 +6,8 @@ together with the `npm mysql` package.
    
 ## Deployment
 
-1. Open [MySQL](https://dev.mysql.com/doc/), copy and paste the code from [bamazon_db.sql](bamazon_db.sql) and execute code to populate the database.
-2. Clone this repo
+1. Open your [MySQL](https://dev.mysql.com/doc/), copy and paste the code from [bamazon_db.sql](bamazon_db.sql), and execute code to populate the database.
+2. Clone this [repo](https://github.com/ChrisBoyce886/bamazon.git)
 3. Naviate to the repo's root directory and run `npm install` 
 4. Go into [bamazonCustomer.js](bamazonCustomer.js) and replace the MySQL password found near the top, with your own MySQL password 
 5. Using command prompt run `node bamazonCustomer.js` from root directory
