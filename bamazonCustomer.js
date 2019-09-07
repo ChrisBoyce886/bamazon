@@ -110,10 +110,11 @@ function issuePrompts(response) {
                 connection.query(query2 + remaining + " WHERE itemID=" + selection, 
                     // Re-display the table with the new numbers and a message that thanks user for the purchase 
                     function() {
-                        // Add up the total cost of the purchase and display to the user
+                        // Add up the total cost of the purchase and display all purchase information to the user
                         var totalCost = response[loop].price * answer.quantity  
                         console.log("\n" + "=====================================================================================");
                         console.log("Your purchase was successful, Thank you! \n");
+                        console.log("You purchased " + answer.quantity + " of the " + response[loop].productName);
                         console.log("Your purchase total was $" + totalCost);
                         console.log(" \nIt was a pleasure helping you today. Come again soon!");
                         console.log("=====================================================================================");
