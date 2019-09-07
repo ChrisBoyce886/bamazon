@@ -23,11 +23,13 @@ which the item is located, each invidiviual items price, and the quantity of tha
     the total purchase price and updating the store.
    * If the ID number is not found or the requested quantity is too high, the user will be given an alert as to the nature of the error and can try again.
 * Following each successful purchase, the database is updated with the new quantity amount and the user may continue shopping or can exit 
-the application by pressing'control C'
+the application by pressing 'control C'
      
 * **Demonstration gif:**
+
+* This gif demonstrates how to select a product and what error could arise if selected incorrectly, as well as how to select the quanity of that product and what error arises if a quantity is too high. At the end you will see the purchase information and the updated product inventory from the database. 
    
-   ![BamazonGif](screenshot/bamazon.gif "bamazon.gif")
+![BamazonGif](screenshot/bamazon.gif "bamazon.gif")
 
      
 ## Built With
